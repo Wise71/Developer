@@ -23,7 +23,9 @@ class BooksTestDrive {
 			System.out.print(myBooks[x].title);
 			System.out.print(" by ");
 			System.out.println(myBooks[x].author);
+			
 			System.out.println("Testing..");
+			
 			x = x + 1;
 		}
 	}
