@@ -1,0 +1,25 @@
+package demo.tool;
+
+class DVDPlayer {
+	boolean canRecord = false;
+	void playDVD() {
+		System.out.println("DVD playing");
+	}
+	void recordDVD() {
+		System.out.println("DVD recording");
+	}
+}
+
+class DVDPlayerTestDrive {
+
+	public static void main(String[] args) {
+		DVDPlayer d = new DVDPlayer();
+		d.canRecord = false;
+		d.playDVD();
+		
+		if (d.canRecord == true) {
+			d.recordDVD();
+		}
+	}
+
+}
