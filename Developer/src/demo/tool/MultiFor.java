@@ -14,10 +14,3 @@ public class MultiFor {
 		}
 	}
 }
-/*
-0 4
-0 3
-1 4
-1 3
-3 4
-3 3*/
