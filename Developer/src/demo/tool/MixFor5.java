@@ -2,12 +2,12 @@ package demo.tool;
 
 class MixFor5{
 	public static void main(String[]args){
-		int x = 0; // 6
-		int y = 30; // 22
-		for (int outer = 0; outer < 3; outer++){ // 1
+		int x = 0;
+		int y = 30;
+		for (int outer = 0; outer < 3; outer++){
 			for (int inner = 4; inner > 1; inner--){
-				x--;
-				//y = y - 2;
+				x = x++;
+				y = y - 2;
 				if (x == 6){
 					break;
 				}
